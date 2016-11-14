@@ -32,7 +32,8 @@
     "opentype.js": "0.4.4",
     "socket.io": "1.4.8",
     "superagent": "0.21.0",
-    "vd": "0.1.0"
+    "vd": "0.1.0",
+	"cfenv": "1.0.x"
   },
   "license": "MIT",
   "devDependencies": {
@@ -57,6 +58,7 @@
   },
   "scripts": {
     "test": "mocha && eslint lib/**",
-    "postinstall": "gulp"
+    "postinstall": "gulp",
+    "start": "node app.js"
   }
 }
